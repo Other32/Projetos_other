@@ -1,9 +1,10 @@
 package dao;
 
-import javax.transaction.Transaction;
+
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 
 import bean.Carro;
 import util.HibernateUtil;
